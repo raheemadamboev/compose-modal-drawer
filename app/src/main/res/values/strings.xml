@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Compose Modal Drawer</string>
+
+    <!-- Main -->
+    <string name="header">Header</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+
+    <!-- CD -->
+    <string name="cd_toggle_drawer">Toggle drawer</string>
+    <string name="cd_home_menu">Home menu</string>
+    <string name="cd_settings_menu">Settings menu</string>
+    <string name="cd_help_menu">Help menu</string>
+    <string name="cd_favorite_button">Favorite button</string>
 </resources>
