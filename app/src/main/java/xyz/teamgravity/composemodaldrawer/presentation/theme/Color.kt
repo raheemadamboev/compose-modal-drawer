@@ -1,4 +1,4 @@
-package xyz.teamgravity.composemodaldrawer.ui.theme
+package xyz.teamgravity.composemodaldrawer.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

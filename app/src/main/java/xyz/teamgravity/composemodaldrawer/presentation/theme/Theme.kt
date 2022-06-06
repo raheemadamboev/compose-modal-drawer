@@ -1,4 +1,4 @@
-package xyz.teamgravity.composemodaldrawer.ui.theme
+package xyz.teamgravity.composemodaldrawer.presentation.theme
 
 import android.app.Activity
 import android.os.Build
