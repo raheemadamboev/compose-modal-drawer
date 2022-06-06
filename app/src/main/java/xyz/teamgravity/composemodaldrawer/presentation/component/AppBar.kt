@@ -13,7 +13,6 @@ import xyz.teamgravity.composemodaldrawer.R
 
 @Composable
 fun AppBar(
-    drawerOpen: Boolean,
     onNavigationClick: () -> Unit,
 ) {
     SmallTopAppBar(
@@ -23,7 +22,7 @@ fun AppBar(
         navigationIcon = {
             IconButton(onClick = onNavigationClick) {
                 Icon(
-                    imageVector = if (drawerOpen) Icons.Default.Close else Icons.Default.Menu,
+                    imageVector = Icons.Default.Menu,
                     contentDescription = stringResource(id = R.string.cd_toggle_drawer)
                 )
             }
