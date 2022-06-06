@@ -53,7 +53,7 @@ class Main : ComponentActivity() {
                             topBar = {
                                 AppBar(
                                     onNavigationClick = {
-                                        scope.launch { if (drawer.isOpen) drawer.close() else drawer.open() }
+                                        scope.launch { drawer.open() }
                                     }
                                 )
                             },
